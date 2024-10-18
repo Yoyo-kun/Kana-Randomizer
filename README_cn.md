@@ -36,7 +36,7 @@ pip install -r requirements.txt
     在命令行中导航到包含 `main.py` 的项目目录，然后运行以下命令：
 
     ```bash
-    pyinstaller --onefile --windowed Kana-Randomizer.py
+    pyinstaller --onefile --noconsole --add-data "Kana_basic_sounds;Kana_basic_sounds" --icon="NERV.ico" Kana-Randomizer.py
     ```
     
     -   `--onefile` 选项将所有文件打包成一个单独的 `.exe` 文件。

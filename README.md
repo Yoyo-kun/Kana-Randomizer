@@ -36,7 +36,7 @@ To package the Python application as an `.exe` file, you can use the `PyInstalle
    Navigate to the project directory containing `main.py` and run the following command:
 
    ```bash
-   pyinstaller --onefile --windowed Kana-Randomizer.py
+   pyinstaller --onefile --noconsole --add-data "Kana_basic_sounds;Kana_basic_sounds" --icon="NERV.ico" Kana-Randomizer.py
    ```
 
    - The `--onefile` option packages all files into a single `.exe` file.
