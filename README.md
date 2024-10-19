@@ -1,6 +1,6 @@
 # Kana Randomizer
 
-This is a simple Tkinter application that generates random buttons representing hiragana or katakana based on user input. Each button can be clicked to reveal its corresponding romaji or other kana forms.
+This is a simple Tkinter application that generates random buttons representing hiragana or katakana based on user input. Each button can be clicked to reveal its corresponding romaji or other kana forms. This application is designed to help Japanese beginners learn the language.
 
 ## Features
 
